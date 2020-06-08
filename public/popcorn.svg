@@ -1,8 +1,4 @@
-import React from 'react';
-
-const SvgPopcorn = () => {
-  return (
-    <svg
+<svg
       id="Capa_1"
       enableBackground="new 0 0 512 512"
       height="128"
@@ -73,7 +69,3 @@ const SvgPopcorn = () => {
         </g>
       </g>
     </svg>
-  );
-};
-
-export default SvgPopcorn;

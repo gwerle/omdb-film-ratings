@@ -1,8 +1,8 @@
-import React from 'react'
-import FilmsList from './pages/FilmsList'
+import React from 'react';
+import FilmsList from './pages/FilmsList';
 
 function App () {
-  return <FilmsList />
+  return <FilmsList />;
 }
 
-export default App
+export default App;

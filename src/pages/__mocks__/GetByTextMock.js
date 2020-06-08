@@ -83,4 +83,4 @@ export const getByHarryPotter = {
   ],
   totalResults: '65',
   Response: 'True'
-}
+};

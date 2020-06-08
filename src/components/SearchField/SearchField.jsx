@@ -1,5 +1,6 @@
-import React from 'react'
-import { SearchInput } from './styles'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { SearchInput } from './styles';
 
 export default function SearchField ({
   searchTerm,
@@ -15,5 +16,15 @@ export default function SearchField ({
         onChange={(event) => handleChangeInput(event)}
       />
     </form>
-  )
+  );
 }
+
+SearchField.defaultProps = {
+  searchTerm: '',
+  handleChangeInput: () => {}
+};
+
+SearchField.propTypes = {
+  searchTerm: PropTypes.string,
+  handleChangeInput: PropTypes.func
+};
